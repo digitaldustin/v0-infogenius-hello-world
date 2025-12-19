@@ -1,30 +1,20 @@
-# Infogenius hello world
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+# Run and deploy your AI Studio app
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/dustins-projects-bcc129d7/v0-infogenius-hello-world)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/t0iZBPNFKDp)
+This contains everything you need to run your app locally.
 
-## Overview
+View your app in AI Studio: https://ai.studio/apps/drive/1-ioJvNyUY1KDBbQXlrVPD7YhcQUgnnWg
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Run Locally
 
-## Deployment
+**Prerequisites:**  Node.js
 
-Your project is live at:
 
-**[https://vercel.com/dustins-projects-bcc129d7/v0-infogenius-hello-world](https://vercel.com/dustins-projects-bcc129d7/v0-infogenius-hello-world)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/t0iZBPNFKDp](https://v0.app/chat/t0iZBPNFKDp)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
